@@ -14,18 +14,18 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/lge/h918
+DEVICE_PATH := device/lge/vs995
 
 # inherit from common v20
 -include device/lge/v20-common/BoardConfigCommon.mk
 
-TARGET_OTA_ASSERT_DEVICE := h918
+TARGET_OTA_ASSERT_DEVICE := vs995
 
 # Kernel
-TARGET_KERNEL_CONFIG := lineageos_h918_defconfig
+TARGET_KERNEL_CONFIG := lineageos_vs995_defconfig
 
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
 # inherit from the proprietary version
--include vendor/lge/h918/BoardConfigVendor.mk
+-include vendor/lge/vs995/BoardConfigVendor.mk
