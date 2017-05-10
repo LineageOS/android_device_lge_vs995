@@ -27,5 +27,8 @@ TARGET_KERNEL_CONFIG := lineageos_vs995_defconfig
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
+# RIL
+BOARD_RIL_CLASS += ../../../device/lge/vs995/ril
+
 # inherit from the proprietary version
 -include vendor/lge/vs995/BoardConfigVendor.mk
