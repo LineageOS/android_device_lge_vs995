@@ -9,7 +9,8 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 PRODUCT_NAME := lineage_vs995
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_DEVICE="v20" \
+    TARGET_DEVICE="elsa" \
+    PRODUCT_DEVICE="elsa" \
     PRODUCT_NAME="elsa_vzw_us" \
     PRIVATE_BUILD_DESC="elsa_vzw-user 7.0 NRD90M 1628409164d39 release-keys"
 
