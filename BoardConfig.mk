@@ -25,4 +25,4 @@ TARGET_OTA_ASSERT_DEVICE := vs995,us996,elsa
 TARGET_KERNEL_CONFIG := lineageos_vs995_defconfig
 
 # inherit from the proprietary version
--include vendor/lge/vs995/BoardConfigVendor.mk
+include vendor/lge/vs995/BoardConfigVendor.mk
