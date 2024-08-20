@@ -22,7 +22,7 @@ DEVICE_PATH := device/lge/vs995
 TARGET_OTA_ASSERT_DEVICE := vs995,us996,elsa
 
 # Kernel
-TARGET_KERNEL_CONFIG := lineageos_vs995_defconfig
+TARGET_KERNEL_CONFIG := vendor/lge/vs995.config
 
 # inherit from the proprietary version
 include vendor/lge/vs995/BoardConfigVendor.mk
